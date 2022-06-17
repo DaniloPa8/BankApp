@@ -1,0 +1,132 @@
+.compName {
+  margin-left: 1rem;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.compName:hover {
+  color: #24b392;
+  margin-bottom: 0.5rem;
+}
+
+.navbar {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  background: #20102c;
+  border-bottom: #615858 4px solid;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding-bottom: 10px;
+}
+
+.mainNav {
+  list-style-type: none;
+  display: none;
+}
+.buttonLink {
+  margin-left: 5rem;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: inherit;
+  color: ghostwhite;
+  opacity: 0.6;
+  background-color: transparent;
+  border-width: 0;
+}
+.buttonLink:hover {
+  color: #24b392;
+}
+
+.navLinks {
+  margin-left: 5rem;
+  text-decoration: none;
+  color: ghostwhite;
+  opacity: 0.6;
+}
+
+.navLinks:hover {
+  color: #24b392;
+}
+.logo {
+  text-decoration: none;
+  color: ghostwhite;
+  opacity: 0.6;
+  padding-top: 1rem;
+}
+.materialIcons {
+  text-decoration: none;
+  color: ghostwhite;
+  opacity: 0.6;
+}
+
+.mainNav li {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.logo {
+  display: flex;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.logo p {
+  margin-top: 12px;
+  padding-left: 5px;
+  margin-bottom: 1rem;
+}
+
+.toggleNav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.materialIcons {
+  font-size: 24px;
+}
+
+.active {
+  display: block;
+}
+
+/* For large screen more than 600 */
+
+@media screen and (min-width: 600px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+  .toggleNav {
+    display: none;
+  }
+  .mainNav {
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+  }
+  .mainNav > li {
+    margin: 0;
+    display: flex;
+  }
+  .navlinks {
+    margin-left: 20px;
+    padding-right: 20rem;
+  }
+  .buttonLinks {
+    margin-left: 20px;
+    padding-right: 20rem;
+  }
+  .logo {
+    margin-top: 0;
+  }
+}

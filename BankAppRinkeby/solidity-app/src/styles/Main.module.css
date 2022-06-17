@@ -1,0 +1,36 @@
+.main {
+  margin: 0 auto 25px;
+  overflow: hidden;
+  position: fixed;
+  top: 20%;
+  left: 20%;
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: #38204b;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #20102c;
+  width: 60%;
+  height: 65%;
+}
+.title {
+  position: relative;
+  text-align: center;
+  left: 30%;
+  width: 40%;
+
+  color: wheat;
+}
+.text {
+  margin-top: 5%;
+  width: 60%;
+  height: 40%;
+  left: 20%;
+  font-size: 100%;
+  color: wheat;
+  position: relative;
+
+  text-align: center;
+}
