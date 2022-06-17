@@ -3,7 +3,6 @@ STAKING APP
 
 @dev Danilo Pavićević 
  
-
 $Solidity backend 
 
 The backend of this project was written in Solidity using the 0.8 compiler version.
